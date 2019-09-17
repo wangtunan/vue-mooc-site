@@ -2,6 +2,7 @@
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
-    "release": "depoly.sh"
+    "depoly": "depoly.sh",
+    "pages": "depoly-pages.sh"
   }
 }
