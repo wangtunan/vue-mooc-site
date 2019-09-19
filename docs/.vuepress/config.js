@@ -6,7 +6,6 @@ module.exports = {
   ],
   cache: false,
   port: 3480,
-  base: '/vue-mooc-site/',
   themeConfig: {
     lastUpdated: '最后更新时间',
     sidebar: 'auto',
