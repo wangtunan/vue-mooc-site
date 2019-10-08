@@ -4,7 +4,7 @@ module.exports = {
   head: [
     ['link', { rel: 'icon', href: '/icon.png' }]
   ],
-  cache: false,
+  base: '/vue-mooc-site/',
   port: 3480,
   themeConfig: {
     lastUpdated: '最后更新时间',
@@ -17,13 +17,13 @@ module.exports = {
         link: '/guide/'
       },
       {
-        text: '公共组件',
+        text: '组件文档',
         link: '/components/'
-      },
-      {
-        text: '储备知识',
-        link: '/base/'
       }
+      // {
+      //   text: '储备知识',
+      //   link: '/base/'
+      // }
     ],
     sidebar: {
       '/guide/': [
@@ -39,10 +39,42 @@ module.exports = {
           title: "基础",
           collapsable: false,
           children: [
-            '/guide/start.md',
-            '/guide/mock.md'
+            '/guide/basic/start.md',
+            '/guide/basic/mock.md',
+            '/guide/basic/vuex.md',
+            '/guide/basic/router.md'
           ]
-        }
+        },
+        {
+          title: "组件封装",
+          collapsable: false,
+          children: [
+            '/guide/base-components/',
+            '/guide/business-components/'
+          ]
+        },
+        {
+          title: "开发",
+          collapsable: false,
+          children: [
+            '/guide/develop/layout.md',
+            '/guide/develop/login.md',
+            '/guide/develop/home.md',
+            '/guide/develop/course.md',
+            '/guide/develop/lesson.md',
+            '/guide/develop/read.md',
+            '/guide/develop/question.md',
+            '/guide/develop/article.md',
+            '/guide/develop/cart.md'
+          ]
+        },
+        {
+          title: "部署",
+          collapsable: false,
+          children: [
+            '/guide/depoly.md'
+          ]
+        },
       ],
       '/components/': [
         {
@@ -63,7 +95,6 @@ module.exports = {
             '/components/base/progress.md',
             '/components/base/steps.md',
             '/components/base/breadcrumb.md',
-            '/components/base/empty.md',
             '/components/base/backtop.md',
             '/components/base/message.md',
             '/components/base/message-box.md',
@@ -79,6 +110,7 @@ module.exports = {
             '/components/business/header.md',
             '/components/business/footer.md',
             '/components/business/sidebar.md',
+            '/components/business/empty.md',
             '/components/business/canvas-blur.md',
             '/components/business/rem-lesson.md',
             '/components/business/chapter.md',

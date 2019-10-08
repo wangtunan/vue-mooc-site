@@ -3,7 +3,7 @@
 
 **Vue生态**:
 * `Vue.js`：基础框架，[Vue.js官网](https://cn.vuejs.org/)。
-* `Vue-cli3.0`：一个`Vue`官方提供的一个脚手架工具，它提供了标准的目录结构和一些必要的配置，[Vue-cli3.0官网](https://cli.vuejs.org/zh/)
+* `Vue-cli3.0+`：一个`Vue`官方提供的一个脚手架工具，它提供了标准的目录结构和一些必要的配置，[Vue-cli3.0官网](https://cli.vuejs.org/zh/)
 * `Vuex`：数据状态管理工具，[Vuex官网](https://vuex.vuejs.org/)。
 * `Vue-router`：路由管理工具，[Vue-router官网](https://router.vuejs.org/)。
 * `VuePress`：撰写静态站点的工具(你所看到的本站点是采用`VuePress1.x`)，[VuePress官网](https://v1.vuepress.vuejs.org/)。
@@ -32,7 +32,7 @@
 <input type="checkbox" checked /> Progress(进度条)<br/>
 <input type="checkbox"/> Breadcrumb(面包屑导航)<br/>
 <input type="checkbox" checked/> Timeline(时间线)<br/>
-<input type="checkbox"/> Step(步骤条)<br/>
+<input type="checkbox" checked/> Step(步骤条)<br/>
 <input type="checkbox"/> Scroll(滚动组件)<br/>
 <input type="checkbox"/> Pagination(分页)<br/>
 <input type="checkbox"/> dialog(弹出)<br/>
