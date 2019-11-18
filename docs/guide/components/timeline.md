@@ -56,13 +56,13 @@ export default {
 </script>
 ```
 
-在`src/base`目录下新建`timeline-item`目录，并在新建的`src/base/timeline-item`目录中，再新建两个文件，分别是`index.js`和`timeline-item.vue`。
+然后在`src/base`目录下新建`timeline-item`目录，并在新建的`src/base/timeline-item`目录中，再新建两个文件，分别是`index.js`和`timeline-item.vue`。
 ```sh
 # 新建 timeline-item目录
 $ mkdir timeline-item
 
 # 新建index.js和timeline-item.vue文件
-$ cd star
+$ cd timeline-item
 $ touch index.js
 $ touch timeline-item.vue
 ```
@@ -155,7 +155,7 @@ export default {
 * `reverse`：根据`reverse`的值，又因为`slots`是一个数组，所以我们可以使用`slots.reverse`进行节点内容的反转，从而达到让`timeline`时间线组件按正序或者反序排列的目的。
 
 ### TimelineItem开发
-根据上面的思维导图，我们列举`timeline-item`子组件的`prop`入参：
+根据上面的思维导图，我们列举`timeline-item`子组件的`props`入参：
 * `timestamp`：时间戳。
 * `hide-timestamp`：是否隐藏时间戳。
 * `placement`: 时间戳的位置。
