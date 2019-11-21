@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Timeline 时间线 | vue-mooc</title>
+    <meta name="description" content="使用Vue全家桶，高防慕课网PC端项目">
+    <link rel="icon" href="/vue-mooc-site/icon.png">
+    
+    <link rel="preload" href="/vue-mooc-site/assets/css/0.styles.8c56f2c8.css" as="style"><link rel="preload" href="/vue-mooc-site/assets/js/app.611eefa8.js" as="script"><link rel="preload" href="/vue-mooc-site/assets/js/13.cdaafb88.js" as="script"><link rel="preload" href="/vue-mooc-site/assets/js/26.549288b4.js" as="script"><link rel="prefetch" href="/vue-mooc-site/assets/js/1.4a566b06.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/10.d41cb277.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/100.7a4046eb.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/101.fcb83a4b.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/102.1d9b6a78.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/103.d44feeb9.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/104.b4373991.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/105.b971d1f9.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/106.005d1ab9.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/107.64713444.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/11.aa2ee5e3.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/14.3c4b295e.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/15.a53463c6.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/16.2bffb193.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/17.b79cf07b.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/18.55a2fcbc.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/19.80a6d4d1.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/2.50121935.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/20.dab620f5.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/21.a97d25c0.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/22.24e94715.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/23.f0925eee.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/24.cd783917.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/25.3f5862e1.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/27.3b01d506.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/28.819d6a78.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/29.c7929a32.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/3.d130ad7b.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/30.c3ace002.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/31.c91f094a.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/32.9a7072f6.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/33.76ea0c96.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/34.c773ca9d.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/35.9b48ce3b.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/36.89755356.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/37.016a876d.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/38.de6d7160.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/39.750d900e.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/4.ad316a6d.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/40.7d71cf4d.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/41.4ebbdd0c.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/42.804b270b.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/43.102f8415.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/44.358a6b1a.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/45.7d6b66bd.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/46.001bda70.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/47.8525d80b.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/48.7fc7a152.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/49.484c6597.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/5.852714fe.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/50.dc4a4846.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/51.db885037.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/52.c3aa92c1.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/53.91abf7ba.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/54.8193e831.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/55.5f8ed0d2.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/56.1263f316.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/57.911bb78a.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/58.8ff6f4f1.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/59.b2403070.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/6.5641815c.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/60.973c3a01.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/61.c9ce406b.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/62.e04b538d.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/63.345e6876.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/64.8bdbb0bd.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/65.66f73bb2.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/66.cf456465.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/67.904b5a79.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/68.a00b0580.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/69.ae2589fd.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/7.7a07dcbb.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/70.291bb821.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/71.35cfa5f7.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/72.2966c734.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/73.bb512026.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/74.eecf8157.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/75.6d67cb58.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/76.b7e62cb7.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/77.98d461af.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/78.4bebc724.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/79.23a50d28.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/8.86b7a3b8.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/80.431bc801.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/81.0a2fbe90.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/82.51da132d.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/83.9d7e0653.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/84.5691ccec.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/85.901a565c.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/86.2125b5df.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/87.4917e713.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/88.54a94d9e.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/89.70f1f672.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/9.2f7c86c5.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/90.3c6999e2.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/91.4dc1828f.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/92.b5574099.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/93.167869cc.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/94.ecbf4a38.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/95.b3fb8ea1.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/96.7957a7ae.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/97.235ca40e.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/98.005aa9af.js"><link rel="prefetch" href="/vue-mooc-site/assets/js/99.e491d2fa.js">
+    <link rel="stylesheet" href="/vue-mooc-site/assets/css/0.styles.8c56f2c8.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/vue-mooc-site/" class="home-link router-link-active"><!----> <span class="site-name">vue-mooc</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/vue-mooc-site/guide/" class="nav-link">指南</a></div><div class="nav-item"><a href="/vue-mooc-site/components/" class="nav-link router-link-active">组件文档</a></div> <a href="https://github.com/wangtunan/vue-mooc" target="_blank" rel="noopener noreferrer" class="repo-link">
+    Github
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/vue-mooc-site/guide/" class="nav-link">指南</a></div><div class="nav-item"><a href="/vue-mooc-site/components/" class="nav-link router-link-active">组件文档</a></div> <a href="https://github.com/wangtunan/vue-mooc" target="_blank" rel="noopener noreferrer" class="repo-link">
+    Github
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>介绍</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/vue-mooc-site/components/" class="sidebar-link">介绍</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>基础公共组件</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/vue-mooc-site/components/base/star.html" class="sidebar-link">Star 星级评分</a></li><li><a href="/vue-mooc-site/components/base/badge.html" class="sidebar-link">Badge 标记</a></li><li><a href="/vue-mooc-site/components/base/switch.html" class="sidebar-link">Switch 开关</a></li><li><a href="/vue-mooc-site/components/base/timeline.html" class="active sidebar-link">Timeline 时间线</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/vue-mooc-site/components/base/timeline.html#用法" class="sidebar-link">用法</a></li><li class="sidebar-sub-header"><a href="/vue-mooc-site/components/base/timeline.html#属性" class="sidebar-link">属性</a></li></ul></li><li><a href="/vue-mooc-site/components/base/progress.html" class="sidebar-link">Progress 进度条</a></li><li><a href="/vue-mooc-site/components/base/steps.html" class="sidebar-link">Steps 步骤条</a></li><li><a href="/vue-mooc-site/components/base/breadcrumb.html" class="sidebar-link">Breadcrumb 面包屑导航</a></li><li><a href="/vue-mooc-site/components/base/backtop.html" class="sidebar-link">BackTop 返回顶部</a></li><li><a href="/vue-mooc-site/components/base/button.html" class="sidebar-link">Button 按钮</a></li><li><a href="/vue-mooc-site/components/base/message.html" class="sidebar-link">Message 消息提示</a></li><li><a href="/vue-mooc-site/components/base/message-box.html" class="sidebar-link">MessageBox 消息确认</a></li><li><a href="/vue-mooc-site/components/base/carousel.html" class="sidebar-link">Carousel 轮播</a></li><li><a href="/vue-mooc-site/components/base/pagination.html" class="sidebar-link">Pagination 分页</a></li><li><a href="/vue-mooc-site/components/base/dialog.html" class="sidebar-link">Dialog 弹窗</a></li><li><a href="/vue-mooc-site/components/base/divider.html" class="sidebar-link">Divider 分割线</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>业务公共组件</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/vue-mooc-site/components/business/sidebar.html" class="sidebar-link">Sidebar 侧边栏</a></li><li><a href="/vue-mooc-site/components/business/empty.html" class="sidebar-link">Empty 空内容</a></li><li><a href="/vue-mooc-site/components/business/canvas-blur.html" class="sidebar-link">CanvasBlur 高斯模糊</a></li><li><a href="/vue-mooc-site/components/business/rem-lesson.html" class="sidebar-link">RecommendLesson 推荐课程</a></li><li><a href="/vue-mooc-site/components/business/chapter.html" class="sidebar-link">Chapter 课程目录</a></li><li><a href="/vue-mooc-site/components/business/comment.html" class="sidebar-link">Comment 课程评论</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="timeline-时间线"><a href="#timeline-时间线" aria-hidden="true" class="header-anchor">#</a> Timeline 时间线</h1> <h2 id="用法"><a href="#用法" aria-hidden="true" class="header-anchor">#</a> 用法</h2> <div class="tip custom-block"><p>时间线组件，用<code>timeline</code>和<code>timeline-item</code>两个组件，通过传递<code>timestamp</code>来结合一起使用。</p></div> <h3 id="基础用法"><a href="#基础用法" aria-hidden="true" class="header-anchor">#</a> 基础用法</h3> <div class="tip custom-block"><p>通过在<code>timeline-item</code>上循环遍历输出<code>timestamp</code>和自定义内容，达到组合成时间线的目的。</p></div> <div class="timeline-container"><ul class="timeline" data-v-0f546d74><li class="timeline-item" data-v-1dacc794><div class="timeline-item-line" data-v-1dacc794></div> <div class="timeline-item-dot timeline-item-dot-small timeline-item-dot-" data-v-1dacc794></div> <!----> <div class="timeline-item-wrapper" data-v-1dacc794><!----> <div class="timeline-item-content" data-v-1dacc794> 
+      成立
+    </div> <div class="timeline-item-timestamp bottom" data-v-1dacc794>
+      2015-09-01
+    </div></div></li><li class="timeline-item" data-v-1dacc794><div class="timeline-item-line" data-v-1dacc794></div> <div class="timeline-item-dot timeline-item-dot-small timeline-item-dot-" data-v-1dacc794></div> <!----> <div class="timeline-item-wrapper" data-v-1dacc794><!----> <div class="timeline-item-content" data-v-1dacc794> 
+      高速发展
+    </div> <div class="timeline-item-timestamp bottom" data-v-1dacc794>
+      2016-09-01
+    </div></div></li><li class="timeline-item" data-v-1dacc794><div class="timeline-item-line" data-v-1dacc794></div> <div class="timeline-item-dot timeline-item-dot-small timeline-item-dot-" data-v-1dacc794></div> <!----> <div class="timeline-item-wrapper" data-v-1dacc794><!----> <div class="timeline-item-content" data-v-1dacc794> 
+      上市
+    </div> <div class="timeline-item-timestamp bottom" data-v-1dacc794>
+      2018-09-01
+    </div></div></li><li class="timeline-item" data-v-1dacc794><div class="timeline-item-line" data-v-1dacc794></div> <div class="timeline-item-dot timeline-item-dot-small timeline-item-dot-" data-v-1dacc794></div> <!----> <div class="timeline-item-wrapper" data-v-1dacc794><!----> <div class="timeline-item-content" data-v-1dacc794> 
+      至今
+    </div> <div class="timeline-item-timestamp bottom" data-v-1dacc794>
+      2019-09-13
+    </div></div></li></ul> <ul class="is-reverse timeline" data-v-0f546d74><li class="timeline-item" data-v-1dacc794><div class="timeline-item-line" data-v-1dacc794></div> <div class="timeline-item-dot timeline-item-dot-small timeline-item-dot-" data-v-1dacc794></div> <!----> <div class="timeline-item-wrapper" data-v-1dacc794><!----> <div class="timeline-item-content" data-v-1dacc794> 
+      至今
+    </div> <div class="timeline-item-timestamp bottom" data-v-1dacc794>
+      2019-09-13
+    </div></div></li><li class="timeline-item" data-v-1dacc794><div class="timeline-item-line" data-v-1dacc794></div> <div class="timeline-item-dot timeline-item-dot-small timeline-item-dot-" data-v-1dacc794></div> <!----> <div class="timeline-item-wrapper" data-v-1dacc794><!----> <div class="timeline-item-content" data-v-1dacc794> 
+      上市
+    </div> <div class="timeline-item-timestamp bottom" data-v-1dacc794>
+      2018-09-01
+    </div></div></li><li class="timeline-item" data-v-1dacc794><div class="timeline-item-line" data-v-1dacc794></div> <div class="timeline-item-dot timeline-item-dot-small timeline-item-dot-" data-v-1dacc794></div> <!----> <div class="timeline-item-wrapper" data-v-1dacc794><!----> <div class="timeline-item-content" data-v-1dacc794> 
+      高速发展
+    </div> <div class="timeline-item-timestamp bottom" data-v-1dacc794>
+      2016-09-01
+    </div></div></li><li class="timeline-item" data-v-1dacc794><div class="timeline-item-line" data-v-1dacc794></div> <div class="timeline-item-dot timeline-item-dot-small timeline-item-dot-" data-v-1dacc794></div> <!----> <div class="timeline-item-wrapper" data-v-1dacc794><!----> <div class="timeline-item-content" data-v-1dacc794> 
+      成立
+    </div> <div class="timeline-item-timestamp bottom" data-v-1dacc794>
+      2015-09-01
+    </div></div></li></ul></div> <div class="timeline-container tips"><div>正序</div> <div>反序</div></div> <div class="language-html extra-class"><div class="highlight-lines"><br><br><br><br><br><br><br><br><br><br><div class="highlighted"> </div><br><br><br><br><br><br><br><br></div><pre class="language-html"><code><span class="token comment">&lt;!-- 正序 --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>mooc-timeline</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>mooc-timeline-item</span>
+    <span class="token attr-name">v-for</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>(item,index) in timeline<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">:key</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>index<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">:timestamp</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>item.timestamp<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span> 
+    {{item.content}}
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>mooc-timeline-item</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>mooc-timeline</span><span class="token punctuation">&gt;</span></span>
+<span class="token comment">&lt;!-- 反序 --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>mooc-timeline</span> <span class="token attr-name">:reverse</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>true<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>mooc-timeline-item</span>
+    <span class="token attr-name">v-for</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>(item,index) in timeline<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">:key</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>index<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">:timestamp</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>item.timestamp<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span> 
+    {{item.content}}
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>mooc-timeline-item</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>mooc-timeline</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+  <span class="token function">data</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token punctuation">{</span>
+      timeline<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token function">created</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>timeline <span class="token operator">=</span> <span class="token punctuation">[</span>
+      <span class="token punctuation">{</span> timestamp<span class="token punctuation">:</span> <span class="token string">'2015-09-01'</span><span class="token punctuation">,</span> content<span class="token punctuation">:</span> <span class="token string">'成立'</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span> timestamp<span class="token punctuation">:</span> <span class="token string">'2016-09-01'</span><span class="token punctuation">,</span> content<span class="token punctuation">:</span> <span class="token string">'高速发展'</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span> timestamp<span class="token punctuation">:</span> <span class="token string">'2018-09-01'</span><span class="token punctuation">,</span> content<span class="token punctuation">:</span> <span class="token string">'上市'</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span> timestamp<span class="token punctuation">:</span> <span class="token string">'2019-09-13'</span><span class="token punctuation">,</span> content<span class="token punctuation">:</span> <span class="token string">'至今'</span> <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="不同的颜色"><a href="#不同的颜色" aria-hidden="true" class="header-anchor">#</a> 不同的颜色</h3> <div class="tip custom-block"><p>通过传递<code>color</code>，来实现不同颜色的<code>timeline</code>节点。</p></div> <div class="timeline-container"><ul class="timeline" data-v-0f546d74><li class="timeline-item" data-v-1dacc794><div class="timeline-item-line" data-v-1dacc794></div> <div class="timeline-item-dot timeline-item-dot-small timeline-item-dot-" data-v-1dacc794></div> <!----> <div class="timeline-item-wrapper" data-v-1dacc794><!----> <div class="timeline-item-content" data-v-1dacc794> 
+      成立
+    </div> <div class="timeline-item-timestamp bottom" data-v-1dacc794>
+      2015-09-01
+    </div></div></li><li class="timeline-item" data-v-1dacc794><div class="timeline-item-line" data-v-1dacc794></div> <div class="timeline-item-dot timeline-item-dot-small timeline-item-dot-" data-v-1dacc794></div> <!----> <div class="timeline-item-wrapper" data-v-1dacc794><!----> <div class="timeline-item-content" data-v-1dacc794> 
+      高速发展
+    </div> <div class="timeline-item-timestamp bottom" data-v-1dacc794>
+      2016-09-01
+    </div></div></li><li class="timeline-item" data-v-1dacc794><div class="timeline-item-line" data-v-1dacc794></div> <div class="timeline-item-dot timeline-item-dot-small timeline-item-dot-" data-v-1dacc794></div> <!----> <div class="timeline-item-wrapper" data-v-1dacc794><!----> <div class="timeline-item-content" data-v-1dacc794> 
+      上市
+    </div> <div class="timeline-item-timestamp bottom" data-v-1dacc794>
+      2018-09-01
+    </div></div></li><li class="timeline-item" data-v-1dacc794><div class="timeline-item-line" data-v-1dacc794></div> <div class="timeline-item-dot timeline-item-dot-small timeline-item-dot-" data-v-1dacc794></div> <!----> <div class="timeline-item-wrapper" data-v-1dacc794><!----> <div class="timeline-item-content" data-v-1dacc794> 
+      至今
+    </div> <div class="timeline-item-timestamp bottom" data-v-1dacc794>
+      2019-09-13
+    </div></div></li></ul> <ul class="timeline" data-v-0f546d74><li class="timeline-item" data-v-1dacc794><div class="timeline-item-line" data-v-1dacc794></div> <div class="timeline-item-dot timeline-item-dot-small timeline-item-dot-" style="background-color:#58a;" data-v-1dacc794></div> <!----> <div class="timeline-item-wrapper" data-v-1dacc794><!----> <div class="timeline-item-content" data-v-1dacc794> 
+      成立
+    </div> <div class="timeline-item-timestamp bottom" data-v-1dacc794>
+      2015-09-01
+    </div></div></li><li class="timeline-item" data-v-1dacc794><div class="timeline-item-line" data-v-1dacc794></div> <div class="timeline-item-dot timeline-item-dot-small timeline-item-dot-" style="background-color:#f60;" data-v-1dacc794></div> <!----> <div class="timeline-item-wrapper" data-v-1dacc794><!----> <div class="timeline-item-content" data-v-1dacc794> 
+      高速发展
+    </div> <div class="timeline-item-timestamp bottom" data-v-1dacc794>
+      2016-09-01
+    </div></div></li><li class="timeline-item" data-v-1dacc794><div class="timeline-item-line" data-v-1dacc794></div> <div class="timeline-item-dot timeline-item-dot-small timeline-item-dot-" style="background-color:#f01414;" data-v-1dacc794></div> <!----> <div class="timeline-item-wrapper" data-v-1dacc794><!----> <div class="timeline-item-content" data-v-1dacc794> 
+      上市
+    </div> <div class="timeline-item-timestamp bottom" data-v-1dacc794>
+      2018-09-01
+    </div></div></li><li class="timeline-item" data-v-1dacc794><div class="timeline-item-line" data-v-1dacc794></div> <div class="timeline-item-dot timeline-item-dot-small timeline-item-dot-" style="background-color:#00b43c;" data-v-1dacc794></div> <!----> <div class="timeline-item-wrapper" data-v-1dacc794><!----> <div class="timeline-item-content" data-v-1dacc794> 
+      至今
+    </div> <div class="timeline-item-timestamp bottom" data-v-1dacc794>
+      2019-09-13
+    </div></div></li></ul></div> <div class="timeline-container tips"><div>默认颜色</div> <div>自定义颜色</div></div> <div class="language-html extra-class"><div class="highlight-lines"><br><br><br><br><br><br><br><br><br><br><br><br><br><div class="highlighted"> </div><br><br><br><br></div><pre class="language-html"><code><span class="token comment">&lt;!-- 默认颜色 --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>mooc-timeline</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>mooc-timeline-item</span>
+    <span class="token attr-name">v-for</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>(item,index) in timeline<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">:timestamp</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>item.timestamp<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span> 
+    {{item.content}}
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>mooc-timeline-item</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>mooc-timeline</span><span class="token punctuation">&gt;</span></span>
+<span class="token comment">&lt;!-- 自定义颜色 --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>mooc-timeline</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>mooc-timeline-item</span>
+    <span class="token attr-name">v-for</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>(item,index) in timeline<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">:timestamp</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>item.timestamp<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">:color</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>item.color<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span> 
+    {{item.content}}
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>mooc-timeline-item</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>mooc-timeline</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+  <span class="token function">data</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token punctuation">{</span>
+      timeline<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token function">created</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>timeline <span class="token operator">=</span> <span class="token punctuation">[</span>
+      <span class="token punctuation">{</span> timestamp<span class="token punctuation">:</span> <span class="token string">'2015-09-01'</span><span class="token punctuation">,</span> color<span class="token punctuation">:</span> <span class="token string">'#58a'</span><span class="token punctuation">,</span> content<span class="token punctuation">:</span> <span class="token string">'成立'</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span> timestamp<span class="token punctuation">:</span> <span class="token string">'2016-09-01'</span><span class="token punctuation">,</span> color<span class="token punctuation">:</span> <span class="token string">'#f60'</span><span class="token punctuation">,</span> content<span class="token punctuation">:</span> <span class="token string">'高速发展'</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span> timestamp<span class="token punctuation">:</span> <span class="token string">'2018-09-01'</span><span class="token punctuation">,</span> color<span class="token punctuation">:</span> <span class="token string">'#f01414'</span><span class="token punctuation">,</span> content<span class="token punctuation">:</span> <span class="token string">'上市'</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span> timestamp<span class="token punctuation">:</span> <span class="token string">'2019-09-13'</span><span class="token punctuation">,</span> color<span class="token punctuation">:</span> <span class="token string">'#00b43c'</span><span class="token punctuation">,</span> content<span class="token punctuation">:</span> <span class="token string">'至今'</span> <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="不同的类型"><a href="#不同的类型" aria-hidden="true" class="header-anchor">#</a> 不同的类型</h3> <div class="tip custom-block"><p>通过传递<code>type</code>，来实现不同类型的<code>timeline</code>节点，其中<code>type</code>为基础类型<code>primary</code>, <code>success</code>, <code>warning</code>, <code>danger</code>和<code>info</code>其中之一，它和<code>color</code>属性一样，只影响节点的颜色。</p></div> <div class="timeline-container"><ul class="timeline" data-v-0f546d74><li class="timeline-item" data-v-1dacc794><div class="timeline-item-line" data-v-1dacc794></div> <div class="timeline-item-dot timeline-item-dot-small timeline-item-dot-" data-v-1dacc794></div> <!----> <div class="timeline-item-wrapper" data-v-1dacc794><!----> <div class="timeline-item-content" data-v-1dacc794> 
+      成立
+    </div> <div class="timeline-item-timestamp bottom" data-v-1dacc794>
+      2015-09-01
+    </div></div></li><li class="timeline-item" data-v-1dacc794><div class="timeline-item-line" data-v-1dacc794></div> <div class="timeline-item-dot timeline-item-dot-small timeline-item-dot-" data-v-1dacc794></div> <!----> <div class="timeline-item-wrapper" data-v-1dacc794><!----> <div class="timeline-item-content" data-v-1dacc794> 
+      高速发展
+    </div> <div class="timeline-item-timestamp bottom" data-v-1dacc794>
+      2016-09-01
+    </div></div></li><li class="timeline-item" data-v-1dacc794><div class="timeline-item-line" data-v-1dacc794></div> <div class="timeline-item-dot timeline-item-dot-small timeline-item-dot-" data-v-1dacc794></div> <!----> <div class="timeline-item-wrapper" data-v-1dacc794><!----> <div class="timeline-item-content" data-v-1dacc794> 
+      上市
+    </div> <div class="timeline-item-timestamp bottom" data-v-1dacc794>
+      2018-09-01
+    </div></div></li><li class="timeline-item" data-v-1dacc794><div class="timeline-item-line" data-v-1dacc794></div> <div class="timeline-item-dot timeline-item-dot-small timeline-item-dot-" data-v-1dacc794></div> <!----> <div class="timeline-item-wrapper" data-v-1dacc794><!----> <div class="timeline-item-content" data-v-1dacc794> 
+      至今
+    </div> <div class="timeline-item-timestamp bottom" data-v-1dacc794>
+      2019-09-13
+    </div></div></li></ul> <ul class="timeline" data-v-0f546d74><li class="timeline-item" data-v-1dacc794><div class="timeline-item-line" data-v-1dacc794></div> <div class="timeline-item-dot timeline-item-dot-small timeline-item-dot-primary" data-v-1dacc794></div> <!----> <div class="timeline-item-wrapper" data-v-1dacc794><!----> <div class="timeline-item-content" data-v-1dacc794> 
+      成立
+    </div> <div class="timeline-item-timestamp bottom" data-v-1dacc794>
+      2015-09-01
+    </div></div></li><li class="timeline-item" data-v-1dacc794><div class="timeline-item-line" data-v-1dacc794></div> <div class="timeline-item-dot timeline-item-dot-small timeline-item-dot-warning" data-v-1dacc794></div> <!----> <div class="timeline-item-wrapper" data-v-1dacc794><!----> <div class="timeline-item-content" data-v-1dacc794> 
+      高速发展
+    </div> <div class="timeline-item-timestamp bottom" data-v-1dacc794>
+      2016-09-01
+    </div></div></li><li class="timeline-item" data-v-1dacc794><div class="timeline-item-line" data-v-1dacc794></div> <div class="timeline-item-dot timeline-item-dot-small timeline-item-dot-danger" data-v-1dacc794></div> <!----> <div class="timeline-item-wrapper" data-v-1dacc794><!----> <div class="timeline-item-content" data-v-1dacc794> 
+      上市
+    </div> <div class="timeline-item-timestamp bottom" data-v-1dacc794>
+      2018-09-01
+    </div></div></li><li class="timeline-item" data-v-1dacc794><div class="timeline-item-line" data-v-1dacc794></div> <div class="timeline-item-dot timeline-item-dot-small timeline-item-dot-success" data-v-1dacc794></div> <!----> <div class="timeline-item-wrapper" data-v-1dacc794><!----> <div class="timeline-item-content" data-v-1dacc794> 
+      至今
+    </div> <div class="timeline-item-timestamp bottom" data-v-1dacc794>
+      2019-09-13
+    </div></div></li></ul></div> <div class="timeline-container tips"><div>默认</div> <div>自定义类型</div></div> <div class="language-html extra-class"><div class="highlight-lines"><br><br><br><br><br><br><br><br><br><br><br><br><br><div class="highlighted"> </div><br><br><br><br></div><pre class="language-html"><code><span class="token comment">&lt;!-- 默认 --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>mooc-timeline</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>mooc-timeline-item</span>
+    <span class="token attr-name">v-for</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>(item,index) in timeline<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">:timestamp</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>item.timestamp<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span> 
+    {{item.content}}
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>mooc-timeline-item</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>mooc-timeline</span><span class="token punctuation">&gt;</span></span>
+<span class="token comment">&lt;!-- 自定义类型 --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>mooc-timeline</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>mooc-timeline-item</span>
+    <span class="token attr-name">v-for</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>(item,index) in timeline<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">:timestamp</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>item.timestamp<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">:type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>item.type<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span> 
+    {{item.content}}
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>mooc-timeline-item</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>mooc-timeline</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+  <span class="token function">data</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token punctuation">{</span>
+      timeline<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token function">created</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>timeline <span class="token operator">=</span> <span class="token punctuation">[</span>
+      <span class="token punctuation">{</span> timestamp<span class="token punctuation">:</span> <span class="token string">'2015-09-01'</span><span class="token punctuation">,</span> type<span class="token punctuation">:</span> <span class="token string">'primary'</span><span class="token punctuation">,</span> content<span class="token punctuation">:</span> <span class="token string">'成立'</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span> timestamp<span class="token punctuation">:</span> <span class="token string">'2016-09-01'</span><span class="token punctuation">,</span> type<span class="token punctuation">:</span> <span class="token string">'warning'</span><span class="token punctuation">,</span> content<span class="token punctuation">:</span> <span class="token string">'高速发展'</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span> timestamp<span class="token punctuation">:</span> <span class="token string">'2018-09-01'</span><span class="token punctuation">,</span> type<span class="token punctuation">:</span> <span class="token string">'danger'</span><span class="token punctuation">,</span> content<span class="token punctuation">:</span> <span class="token string">'上市'</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span> timestamp<span class="token punctuation">:</span> <span class="token string">'2019-09-13'</span><span class="token punctuation">,</span> type<span class="token punctuation">:</span> <span class="token string">'success'</span><span class="token punctuation">,</span> content<span class="token punctuation">:</span> <span class="token string">'至今'</span> <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="不同的大小"><a href="#不同的大小" aria-hidden="true" class="header-anchor">#</a> 不同的大小</h3> <div class="tip custom-block"><p>通过传递<code>size</code>，来实现不同大小的<code>timeline</code>节点，其中<code>size</code>为必须为<code>small</code>, <code>normal</code>, <code>medium</code>和`large其中之一，它只影响节点的大小。</p></div> <div class="timeline-container"><ul class="timeline" data-v-0f546d74><li class="timeline-item" data-v-1dacc794><div class="timeline-item-line" data-v-1dacc794></div> <div class="timeline-item-dot timeline-item-dot-small timeline-item-dot-" data-v-1dacc794></div> <!----> <div class="timeline-item-wrapper" data-v-1dacc794><!----> <div class="timeline-item-content" data-v-1dacc794> 
+      成立
+    </div> <div class="timeline-item-timestamp bottom" data-v-1dacc794>
+      2015-09-01
+    </div></div></li><li class="timeline-item" data-v-1dacc794><div class="timeline-item-line" data-v-1dacc794></div> <div class="timeline-item-dot timeline-item-dot-small timeline-item-dot-" data-v-1dacc794></div> <!----> <div class="timeline-item-wrapper" data-v-1dacc794><!----> <div class="timeline-item-content" data-v-1dacc794> 
+      高速发展
+    </div> <div class="timeline-item-timestamp bottom" data-v-1dacc794>
+      2016-09-01
+    </div></div></li><li class="timeline-item" data-v-1dacc794><div class="timeline-item-line" data-v-1dacc794></div> <div class="timeline-item-dot timeline-item-dot-small timeline-item-dot-" data-v-1dacc794></div> <!----> <div class="timeline-item-wrapper" data-v-1dacc794><!----> <div class="timeline-item-content" data-v-1dacc794> 
+      上市
+    </div> <div class="timeline-item-timestamp bottom" data-v-1dacc794>
+      2018-09-01
+    </div></div></li><li class="timeline-item" data-v-1dacc794><div class="timeline-item-line" data-v-1dacc794></div> <div class="timeline-item-dot timeline-item-dot-small timeline-item-dot-" data-v-1dacc794></div> <!----> <div class="timeline-item-wrapper" data-v-1dacc794><!----> <div class="timeline-item-content" data-v-1dacc794> 
+      至今
+    </div> <div class="timeline-item-timestamp bottom" data-v-1dacc794>
+      2019-09-13
+    </div></div></li></ul> <ul class="timeline" data-v-0f546d74><li class="timeline-item" data-v-1dacc794><div class="timeline-item-line" data-v-1dacc794></div> <div class="timeline-item-dot timeline-item-dot-small timeline-item-dot-" style="background-color:#58a;" data-v-1dacc794></div> <!----> <div class="timeline-item-wrapper" data-v-1dacc794><!----> <div class="timeline-item-content" data-v-1dacc794> 
+      成立
+    </div> <div class="timeline-item-timestamp bottom" data-v-1dacc794>
+      2015-09-01
+    </div></div></li><li class="timeline-item" data-v-1dacc794><div class="timeline-item-line" data-v-1dacc794></div> <div class="timeline-item-dot timeline-item-dot-normal timeline-item-dot-" style="background-color:#f60;" data-v-1dacc794></div> <!----> <div class="timeline-item-wrapper" data-v-1dacc794><!----> <div class="timeline-item-content" data-v-1dacc794> 
+      高速发展
+    </div> <div class="timeline-item-timestamp bottom" data-v-1dacc794>
+      2016-09-01
+    </div></div></li><li class="timeline-item" data-v-1dacc794><div class="timeline-item-line" data-v-1dacc794></div> <div class="timeline-item-dot timeline-item-dot-medium timeline-item-dot-" style="background-color:#f01414;" data-v-1dacc794></div> <!----> <div class="timeline-item-wrapper" data-v-1dacc794><!----> <div class="timeline-item-content" data-v-1dacc794> 
+      上市
+    </div> <div class="timeline-item-timestamp bottom" data-v-1dacc794>
+      2018-09-01
+    </div></div></li><li class="timeline-item" data-v-1dacc794><div class="timeline-item-line" data-v-1dacc794></div> <div class="timeline-item-dot timeline-item-dot-large timeline-item-dot-" style="background-color:#00b43c;" data-v-1dacc794></div> <!----> <div class="timeline-item-wrapper" data-v-1dacc794><!----> <div class="timeline-item-content" data-v-1dacc794> 
+      至今
+    </div> <div class="timeline-item-timestamp bottom" data-v-1dacc794>
+      2019-09-13
+    </div></div></li></ul></div> <div class="timeline-container tips"><div>默认12px</div> <div>自定义大小</div></div> <div class="language-html extra-class"><div class="highlight-lines"><br><br><br><br><br><br><br><br><br><br><br><br><br><div class="highlighted"> </div><br><br><br><br></div><pre class="language-html"><code><span class="token comment">&lt;!-- 默认 --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>mooc-timeline</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>mooc-timeline-item</span>
+    <span class="token attr-name">v-for</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>(item,index) in timeline<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">:timestamp</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>item.timestamp<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span> 
+    {{item.content}}
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>mooc-timeline-item</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>mooc-timeline</span><span class="token punctuation">&gt;</span></span>
+<span class="token comment">&lt;!-- 自定义类型 --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>mooc-timeline</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>mooc-timeline-item</span>
+    <span class="token attr-name">v-for</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>(item,index) in timeline<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">:timestamp</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>item.timestamp<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">:type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>item.type<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span> 
+    {{item.content}}
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>mooc-timeline-item</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>mooc-timeline</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+  <span class="token function">data</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token punctuation">{</span>
+      timeline<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token function">created</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>timeline <span class="token operator">=</span> <span class="token punctuation">[</span>
+      <span class="token punctuation">{</span> timestamp<span class="token punctuation">:</span> <span class="token string">'2015-09-01'</span><span class="token punctuation">,</span> color<span class="token punctuation">:</span> <span class="token string">'#58a'</span><span class="token punctuation">,</span> size<span class="token punctuation">:</span> <span class="token string">'small'</span><span class="token punctuation">,</span> content<span class="token punctuation">:</span> <span class="token string">'成立'</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span> timestamp<span class="token punctuation">:</span> <span class="token string">'2016-09-01'</span><span class="token punctuation">,</span> color<span class="token punctuation">:</span> <span class="token string">'#f60'</span><span class="token punctuation">,</span> size<span class="token punctuation">:</span> <span class="token string">'normal'</span><span class="token punctuation">,</span> content<span class="token punctuation">:</span> <span class="token string">'高速发展'</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span> timestamp<span class="token punctuation">:</span> <span class="token string">'2018-09-01'</span><span class="token punctuation">,</span> color<span class="token punctuation">:</span> <span class="token string">'#f01414'</span><span class="token punctuation">,</span> size<span class="token punctuation">:</span> <span class="token string">'medium'</span><span class="token punctuation">,</span> content<span class="token punctuation">:</span> <span class="token string">'上市'</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span> timestamp<span class="token punctuation">:</span> <span class="token string">'2019-09-13'</span><span class="token punctuation">,</span> color<span class="token punctuation">:</span> <span class="token string">'#00b43c'</span><span class="token punctuation">,</span> size<span class="token punctuation">:</span> <span class="token string">'large'</span><span class="token punctuation">,</span> content<span class="token punctuation">:</span> <span class="token string">'至今'</span> <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="不同的位置"><a href="#不同的位置" aria-hidden="true" class="header-anchor">#</a> 不同的位置</h3> <div class="tip custom-block"><p>通过传递<code>placement</code>，其中值必须为<code>top</code>或者<code>bottom</code>其中之一，来控制时间戳显示的位置。</p></div> <div class="timeline-container"><ul class="timeline" data-v-0f546d74><li class="timeline-item" data-v-1dacc794><div class="timeline-item-line" data-v-1dacc794></div> <div class="timeline-item-dot timeline-item-dot-small timeline-item-dot-" data-v-1dacc794></div> <!----> <div class="timeline-item-wrapper" data-v-1dacc794><!----> <div class="timeline-item-content" data-v-1dacc794> 
+      成立
+    </div> <div class="timeline-item-timestamp bottom" data-v-1dacc794>
+      2015-09-01
+    </div></div></li><li class="timeline-item" data-v-1dacc794><div class="timeline-item-line" data-v-1dacc794></div> <div class="timeline-item-dot timeline-item-dot-small timeline-item-dot-" data-v-1dacc794></div> <!----> <div class="timeline-item-wrapper" data-v-1dacc794><!----> <div class="timeline-item-content" data-v-1dacc794> 
+      高速发展
+    </div> <div class="timeline-item-timestamp bottom" data-v-1dacc794>
+      2016-09-01
+    </div></div></li><li class="timeline-item" data-v-1dacc794><div class="timeline-item-line" data-v-1dacc794></div> <div class="timeline-item-dot timeline-item-dot-small timeline-item-dot-" data-v-1dacc794></div> <!----> <div class="timeline-item-wrapper" data-v-1dacc794><!----> <div class="timeline-item-content" data-v-1dacc794> 
+      上市
+    </div> <div class="timeline-item-timestamp bottom" data-v-1dacc794>
+      2018-09-01
+    </div></div></li><li class="timeline-item" data-v-1dacc794><div class="timeline-item-line" data-v-1dacc794></div> <div class="timeline-item-dot timeline-item-dot-small timeline-item-dot-" data-v-1dacc794></div> <!----> <div class="timeline-item-wrapper" data-v-1dacc794><!----> <div class="timeline-item-content" data-v-1dacc794> 
+      至今
+    </div> <div class="timeline-item-timestamp bottom" data-v-1dacc794>
+      2019-09-13
+    </div></div></li></ul> <ul class="timeline" data-v-0f546d74><li class="timeline-item" data-v-1dacc794><div class="timeline-item-line" data-v-1dacc794></div> <div class="timeline-item-dot timeline-item-dot-small timeline-item-dot-" style="background-color:#58a;" data-v-1dacc794></div> <!----> <div class="timeline-item-wrapper" data-v-1dacc794><div class="timeline-item-timestamp top" data-v-1dacc794>
+      2015-09-01
+    </div> <div class="timeline-item-content" data-v-1dacc794> 
+      成立
+    </div> <!----></div></li><li class="timeline-item" data-v-1dacc794><div class="timeline-item-line" data-v-1dacc794></div> <div class="timeline-item-dot timeline-item-dot-small timeline-item-dot-" style="background-color:#f60;" data-v-1dacc794></div> <!----> <div class="timeline-item-wrapper" data-v-1dacc794><div class="timeline-item-timestamp top" data-v-1dacc794>
+      2016-09-01
+    </div> <div class="timeline-item-content" data-v-1dacc794> 
+      高速发展
+    </div> <!----></div></li><li class="timeline-item" data-v-1dacc794><div class="timeline-item-line" data-v-1dacc794></div> <div class="timeline-item-dot timeline-item-dot-small timeline-item-dot-" style="background-color:#f01414;" data-v-1dacc794></div> <!----> <div class="timeline-item-wrapper" data-v-1dacc794><div class="timeline-item-timestamp top" data-v-1dacc794>
+      2018-09-01
+    </div> <div class="timeline-item-content" data-v-1dacc794> 
+      上市
+    </div> <!----></div></li><li class="timeline-item" data-v-1dacc794><div class="timeline-item-line" data-v-1dacc794></div> <div class="timeline-item-dot timeline-item-dot-small timeline-item-dot-" style="background-color:#00b43c;" data-v-1dacc794></div> <!----> <div class="timeline-item-wrapper" data-v-1dacc794><div class="timeline-item-timestamp top" data-v-1dacc794>
+      2019-09-13
+    </div> <div class="timeline-item-content" data-v-1dacc794> 
+      至今
+    </div> <!----></div></li></ul></div> <div class="timeline-container tips"><div>默认底部</div> <div>自定义顶部</div></div> <div class="language-html extra-class"><div class="highlight-lines"><br><br><br><br><br><br><br><br><br><br><br><br><br><div class="highlighted"> </div><br><br><br><br><br></div><pre class="language-html"><code><span class="token comment">&lt;!-- 默认底部 --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>mooc-timeline</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>mooc-timeline-item</span>
+    <span class="token attr-name">v-for</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>(item,index) in timeline<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">:timestamp</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>item.timestamp<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span> 
+    {{item.content}}
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>mooc-timeline-item</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>mooc-timeline</span><span class="token punctuation">&gt;</span></span>
+<span class="token comment">&lt;!-- 自定义顶部 --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>mooc-timeline</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>mooc-timeline-item</span>
+    <span class="token attr-name">v-for</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>(item,index) in timeline<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">:timestamp</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>item.timestamp<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">:placement</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>item.placement<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">:color</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>item.color<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span> 
+    {{item.content}}
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>mooc-timeline-item</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>mooc-timeline</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+  <span class="token function">data</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token punctuation">{</span>
+      timeline<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token function">created</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>timeline <span class="token operator">=</span> <span class="token punctuation">[</span>
+      <span class="token punctuation">{</span> timestamp<span class="token punctuation">:</span> <span class="token string">'2015-09-01'</span><span class="token punctuation">,</span> color<span class="token punctuation">:</span> <span class="token string">'#58a'</span><span class="token punctuation">,</span> size<span class="token punctuation">:</span> <span class="token string">'small'</span><span class="token punctuation">,</span> content<span class="token punctuation">:</span> <span class="token string">'成立'</span><span class="token punctuation">,</span> placement<span class="token punctuation">:</span> <span class="token string">'top'</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span> timestamp<span class="token punctuation">:</span> <span class="token string">'2016-09-01'</span><span class="token punctuation">,</span> color<span class="token punctuation">:</span> <span class="token string">'#f60'</span><span class="token punctuation">,</span> size<span class="token punctuation">:</span> <span class="token string">'normal'</span><span class="token punctuation">,</span> content<span class="token punctuation">:</span> <span class="token string">'高速发展'</span><span class="token punctuation">,</span> placement<span class="token punctuation">:</span> <span class="token string">'top'</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span> timestamp<span class="token punctuation">:</span> <span class="token string">'2018-09-01'</span><span class="token punctuation">,</span> color<span class="token punctuation">:</span> <span class="token string">'#f01414'</span><span class="token punctuation">,</span> size<span class="token punctuation">:</span> <span class="token string">'medium'</span><span class="token punctuation">,</span> content<span class="token punctuation">:</span> <span class="token string">'上市'</span><span class="token punctuation">,</span> placement<span class="token punctuation">:</span> <span class="token string">'top'</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span> timestamp<span class="token punctuation">:</span> <span class="token string">'2019-09-13'</span><span class="token punctuation">,</span> color<span class="token punctuation">:</span> <span class="token string">'#00b43c'</span><span class="token punctuation">,</span> size<span class="token punctuation">:</span> <span class="token string">'large'</span><span class="token punctuation">,</span> content<span class="token punctuation">:</span> <span class="token string">'至今'</span><span class="token punctuation">,</span> placement<span class="token punctuation">:</span> <span class="token string">'top'</span> <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="是否显示时间戳"><a href="#是否显示时间戳" aria-hidden="true" class="header-anchor">#</a> 是否显示时间戳</h3> <div class="tip custom-block"><p>通过传递<code>hideTimestamp</code>，来控制是否显示时间戳。</p></div> <div class="timeline-container"><ul class="timeline" data-v-0f546d74><li class="timeline-item" data-v-1dacc794><div class="timeline-item-line" data-v-1dacc794></div> <div class="timeline-item-dot timeline-item-dot-small timeline-item-dot-" data-v-1dacc794></div> <!----> <div class="timeline-item-wrapper" data-v-1dacc794><!----> <div class="timeline-item-content" data-v-1dacc794> 
+      成立
+    </div> <div class="timeline-item-timestamp bottom" data-v-1dacc794>
+      2015-09-01
+    </div></div></li><li class="timeline-item" data-v-1dacc794><div class="timeline-item-line" data-v-1dacc794></div> <div class="timeline-item-dot timeline-item-dot-small timeline-item-dot-" data-v-1dacc794></div> <!----> <div class="timeline-item-wrapper" data-v-1dacc794><!----> <div class="timeline-item-content" data-v-1dacc794> 
+      高速发展
+    </div> <div class="timeline-item-timestamp bottom" data-v-1dacc794>
+      2016-09-01
+    </div></div></li><li class="timeline-item" data-v-1dacc794><div class="timeline-item-line" data-v-1dacc794></div> <div class="timeline-item-dot timeline-item-dot-small timeline-item-dot-" data-v-1dacc794></div> <!----> <div class="timeline-item-wrapper" data-v-1dacc794><!----> <div class="timeline-item-content" data-v-1dacc794> 
+      上市
+    </div> <div class="timeline-item-timestamp bottom" data-v-1dacc794>
+      2018-09-01
+    </div></div></li><li class="timeline-item" data-v-1dacc794><div class="timeline-item-line" data-v-1dacc794></div> <div class="timeline-item-dot timeline-item-dot-small timeline-item-dot-" data-v-1dacc794></div> <!----> <div class="timeline-item-wrapper" data-v-1dacc794><!----> <div class="timeline-item-content" data-v-1dacc794> 
+      至今
+    </div> <div class="timeline-item-timestamp bottom" data-v-1dacc794>
+      2019-09-13
+    </div></div></li></ul> <ul class="timeline" data-v-0f546d74><li class="timeline-item" data-v-1dacc794><div class="timeline-item-line" data-v-1dacc794></div> <div class="timeline-item-dot timeline-item-dot-small timeline-item-dot-" data-v-1dacc794></div> <!----> <div class="timeline-item-wrapper" data-v-1dacc794><!----> <div class="timeline-item-content" data-v-1dacc794> 
+      成立
+    </div> <!----></div></li><li class="timeline-item" data-v-1dacc794><div class="timeline-item-line" data-v-1dacc794></div> <div class="timeline-item-dot timeline-item-dot-small timeline-item-dot-" data-v-1dacc794></div> <!----> <div class="timeline-item-wrapper" data-v-1dacc794><!----> <div class="timeline-item-content" data-v-1dacc794> 
+      高速发展
+    </div> <!----></div></li><li class="timeline-item" data-v-1dacc794><div class="timeline-item-line" data-v-1dacc794></div> <div class="timeline-item-dot timeline-item-dot-small timeline-item-dot-" data-v-1dacc794></div> <!----> <div class="timeline-item-wrapper" data-v-1dacc794><!----> <div class="timeline-item-content" data-v-1dacc794> 
+      上市
+    </div> <!----></div></li><li class="timeline-item" data-v-1dacc794><div class="timeline-item-line" data-v-1dacc794></div> <div class="timeline-item-dot timeline-item-dot-small timeline-item-dot-" data-v-1dacc794></div> <!----> <div class="timeline-item-wrapper" data-v-1dacc794><!----> <div class="timeline-item-content" data-v-1dacc794> 
+      至今
+    </div> <!----></div></li></ul></div> <div class="timeline-container tips"><div>默认</div> <div>不显示时间戳</div></div> <div class="language-html extra-class"><div class="highlight-lines"><br><br><br><br><br><br><br><br><br><br><br><br><div class="highlighted"> </div><br><br><br><br><br></div><pre class="language-html"><code><span class="token comment">&lt;!-- 默认 --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>mooc-timeline</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>mooc-timeline-item</span>
+    <span class="token attr-name">v-for</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>(item,index) in timeline<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">:timestamp</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>item.timestamp<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span> 
+    {{item.content}}
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>mooc-timeline-item</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>mooc-timeline</span><span class="token punctuation">&gt;</span></span>
+<span class="token comment">&lt;!-- 不显示时间戳 --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>mooc-timeline</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>mooc-timeline-item</span>
+    <span class="token attr-name">v-for</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>(item,index) in timeline<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">:hide-timestamp</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>true<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">:timestamp</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>item.timestamp<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span> 
+    {{item.content}}
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>mooc-timeline-item</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>mooc-timeline</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+  <span class="token function">data</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token punctuation">{</span>
+      timeline<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token function">created</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>timeline <span class="token operator">=</span> <span class="token punctuation">[</span>
+      <span class="token punctuation">{</span> timestamp<span class="token punctuation">:</span> <span class="token string">'2015-09-01'</span><span class="token punctuation">,</span> content<span class="token punctuation">:</span> <span class="token string">'成立'</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span> timestamp<span class="token punctuation">:</span> <span class="token string">'2016-09-01'</span><span class="token punctuation">,</span> content<span class="token punctuation">:</span> <span class="token string">'高速发展'</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span> timestamp<span class="token punctuation">:</span> <span class="token string">'2018-09-01'</span><span class="token punctuation">,</span> content<span class="token punctuation">:</span> <span class="token string">'上市'</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span> timestamp<span class="token punctuation">:</span> <span class="token string">'2019-09-13'</span><span class="token punctuation">,</span> content<span class="token punctuation">:</span> <span class="token string">'至今'</span> <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="自定义节点"><a href="#自定义节点" aria-hidden="true" class="header-anchor">#</a> 自定义节点</h3> <div class="tip custom-block"><p>除了通过以上的属性来控制<code>timeline</code>以外，我们还可以通过插槽的形式，定义自定义节点。</p></div> <div class="timeline-container"><ul class="timeline" data-v-0f546d74><li class="timeline-item" data-v-1dacc794><div class="timeline-item-line" data-v-1dacc794></div> <!----> <div class="timeline-item-dot-customer" data-v-1dacc794><div class="my-dot1" data-v-1dacc794>1</div></div> <div class="timeline-item-wrapper" data-v-1dacc794><!----> <div class="timeline-item-content" data-v-1dacc794> 
+      成立
+    </div> <div class="timeline-item-timestamp bottom" data-v-1dacc794>
+      2015-09-01
+    </div></div></li><li class="timeline-item" data-v-1dacc794><div class="timeline-item-line" data-v-1dacc794></div> <!----> <div class="timeline-item-dot-customer" data-v-1dacc794><div class="my-dot1" data-v-1dacc794>2</div></div> <div class="timeline-item-wrapper" data-v-1dacc794><!----> <div class="timeline-item-content" data-v-1dacc794> 
+      高速发展
+    </div> <div class="timeline-item-timestamp bottom" data-v-1dacc794>
+      2016-09-01
+    </div></div></li><li class="timeline-item" data-v-1dacc794><div class="timeline-item-line" data-v-1dacc794></div> <!----> <div class="timeline-item-dot-customer" data-v-1dacc794><div class="my-dot1" data-v-1dacc794>3</div></div> <div class="timeline-item-wrapper" data-v-1dacc794><!----> <div class="timeline-item-content" data-v-1dacc794> 
+      上市
+    </div> <div class="timeline-item-timestamp bottom" data-v-1dacc794>
+      2018-09-01
+    </div></div></li><li class="timeline-item" data-v-1dacc794><div class="timeline-item-line" data-v-1dacc794></div> <!----> <div class="timeline-item-dot-customer" data-v-1dacc794><div class="my-dot1" data-v-1dacc794>4</div></div> <div class="timeline-item-wrapper" data-v-1dacc794><!----> <div class="timeline-item-content" data-v-1dacc794> 
+      至今
+    </div> <div class="timeline-item-timestamp bottom" data-v-1dacc794>
+      2019-09-13
+    </div></div></li></ul></div> <div class="language-html extra-class"><pre class="language-html"><code><span class="token comment">&lt;!-- 自定义dot --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>mooc-timeline</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>mooc-timeline-item</span>
+    <span class="token attr-name">v-for</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>(item,index) in timeline<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">:timestamp</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>item.timestamp<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span> 
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>my-dot<span class="token punctuation">&quot;</span></span> <span class="token attr-name">slot</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>dot<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>{{index+1}}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span> 
+    {{item.content}}
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>mooc-timeline-item</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>mooc-timeline</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><div class="language-css extra-class"><pre class="language-css"><code>.my-dot
+  <span class="token property">z-index</span><span class="token punctuation">:</span> 10<span class="token punctuation">;</span>
+  <span class="token property">position</span><span class="token punctuation">:</span> relative<span class="token punctuation">;</span>
+  <span class="token property">color</span><span class="token punctuation">:</span> #fff<span class="token punctuation">;</span>
+  <span class="token property">line-height</span><span class="token punctuation">:</span> 20px
+  &amp;<span class="token punctuation">:</span><span class="token punctuation">:</span>after
+    <span class="token property">content</span><span class="token punctuation">:</span> <span class="token string">''</span><span class="token punctuation">;</span>
+    <span class="token property">position</span><span class="token punctuation">:</span> absolute<span class="token punctuation">;</span>
+    <span class="token property">left</span><span class="token punctuation">:</span> -5px<span class="token punctuation">;</span>
+    <span class="token property">top</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+    <span class="token property">width</span><span class="token punctuation">:</span> 20px<span class="token punctuation">;</span>
+    <span class="token property">height</span><span class="token punctuation">:</span> 20px<span class="token punctuation">;</span>
+    <span class="token property">background-color</span><span class="token punctuation">:</span> #f60<span class="token punctuation">;</span>
+    <span class="token property">transform</span><span class="token punctuation">:</span> <span class="token function">rotate</span><span class="token punctuation">(</span>45deg<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><h3 id="自定义内容"><a href="#自定义内容" aria-hidden="true" class="header-anchor">#</a> 自定义内容</h3> <div class="tip custom-block"><p>可以通过默认的内容插槽，来实现自定义的<code>content</code>。</p></div> <div class="timeline-container"><ul class="timeline" data-v-0f546d74><li class="timeline-item" data-v-1dacc794><div class="timeline-item-line" data-v-1dacc794></div> <div class="timeline-item-dot timeline-item-dot-small timeline-item-dot-" data-v-1dacc794></div> <!----> <div class="timeline-item-wrapper" data-v-1dacc794><div class="timeline-item-timestamp top" data-v-1dacc794>
+      2015-09-01
+    </div> <div class="timeline-item-content" data-v-1dacc794><div class="my-content" data-v-1dacc794>成立</div></div> <!----></div></li><li class="timeline-item" data-v-1dacc794><div class="timeline-item-line" data-v-1dacc794></div> <div class="timeline-item-dot timeline-item-dot-small timeline-item-dot-" data-v-1dacc794></div> <!----> <div class="timeline-item-wrapper" data-v-1dacc794><div class="timeline-item-timestamp top" data-v-1dacc794>
+      2016-09-01
+    </div> <div class="timeline-item-content" data-v-1dacc794><div class="my-content" data-v-1dacc794>高速发展</div></div> <!----></div></li><li class="timeline-item" data-v-1dacc794><div class="timeline-item-line" data-v-1dacc794></div> <div class="timeline-item-dot timeline-item-dot-small timeline-item-dot-" data-v-1dacc794></div> <!----> <div class="timeline-item-wrapper" data-v-1dacc794><div class="timeline-item-timestamp top" data-v-1dacc794>
+      2018-09-01
+    </div> <div class="timeline-item-content" data-v-1dacc794><div class="my-content" data-v-1dacc794>上市</div></div> <!----></div></li><li class="timeline-item" data-v-1dacc794><div class="timeline-item-line" data-v-1dacc794></div> <div class="timeline-item-dot timeline-item-dot-small timeline-item-dot-" data-v-1dacc794></div> <!----> <div class="timeline-item-wrapper" data-v-1dacc794><div class="timeline-item-timestamp top" data-v-1dacc794>
+      2019-09-13
+    </div> <div class="timeline-item-content" data-v-1dacc794><div class="my-content" data-v-1dacc794>至今</div></div> <!----></div></li></ul></div> <div class="language-html extra-class"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>mooc-timeline</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>mooc-timeline-item</span>
+    <span class="token attr-name">v-for</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>(item,index) in timeline<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">placement</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>top<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">:timestamp</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>item.timestamp<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span> 
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>my-content<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>{{item.content}}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span> 
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>mooc-timeline-item</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>mooc-timeline</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><div class="language-css extra-class"><pre class="language-css"><code>.my-content
+  <span class="token property">width</span><span class="token punctuation">:</span> 500px<span class="token punctuation">;</span>
+  <span class="token property">padding</span><span class="token punctuation">:</span> 20px<span class="token punctuation">;</span>
+  <span class="token property">background-color</span><span class="token punctuation">:</span> #fff<span class="token punctuation">;</span>
+  <span class="token property">box-shadow</span><span class="token punctuation">:</span> 0 2px 12px <span class="token function">rgba</span><span class="token punctuation">(</span>7<span class="token punctuation">,</span>17<span class="token punctuation">,</span>27<span class="token punctuation">,</span>0.1<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><h2 id="属性"><a href="#属性" aria-hidden="true" class="header-anchor">#</a> 属性</h2> <h3 id="timeline-属性"><a href="#timeline-属性" aria-hidden="true" class="header-anchor">#</a> timeline 属性</h3> <table><thead><tr><th>属性名称</th> <th>类型</th> <th>默认值</th> <th>说明</th></tr></thead> <tbody><tr><td>reverse</td> <td>Boolean</td> <td><code>false</code></td> <td>是否反转时间轴</td></tr></tbody></table> <h3 id="timeline-item-属性"><a href="#timeline-item-属性" aria-hidden="true" class="header-anchor">#</a> timeline-item 属性</h3> <table><thead><tr><th>属性名称</th> <th>类型</th> <th>默认值</th> <th>说明</th></tr></thead> <tbody><tr><td>timestamp</td> <td>String</td> <td>-</td> <td>时间戳</td></tr> <tr><td>hideTimestamp</td> <td>Boolean</td> <td><code>false</code></td> <td>是否隐藏时间轴</td></tr> <tr><td>placement</td> <td>Sring</td> <td><code>bottom</code></td> <td>时间轴的位置，必须为<code>top</code>或<code>bottom</code>之一</td></tr> <tr><td>size</td> <td>Sring</td> <td><code>small</code></td> <td>节点的大小，必须为<code>small</code>,<code>normal</code>,<code>medium</code>和<code>large</code>其中之一</td></tr> <tr><td>type</td> <td>Sring</td> <td>-</td> <td>节点的类型，必须为<code>primary</code>,<code>success</code>,<code>warning</code>,<code>danger</code>和<code>info</code>其中之一</td></tr> <tr><td>color</td> <td>Sring</td> <td>-</td> <td>节点的颜色，如同时传递了<code>type</code>，则<code>type</code>会被<code>color</code>覆盖，无效。</td></tr></tbody></table></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">最后更新时间: </span> <span class="time">9/17/2019, 10:55:33 PM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+        ←
+        <a href="/vue-mooc-site/components/base/switch.html" class="prev">
+          Switch 开关
+        </a></span> <span class="next"><a href="/vue-mooc-site/components/base/progress.html">
+          Progress 进度条
+        </a>
+        →
+      </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/vue-mooc-site/assets/js/app.611eefa8.js" defer></script><script src="/vue-mooc-site/assets/js/13.cdaafb88.js" defer></script><script src="/vue-mooc-site/assets/js/26.549288b4.js" defer></script>
+  </body>
+</html>
